@@ -1,6 +1,7 @@
 # Solarsis-supply-chain-analysis
 Analyzed  ~20,000 supply-chain orders for a fictional company (Solarsis) to identify operational risk hidden behoind a successful OTD rate of 87.3% and strategic recommendations.
 A consulting and strategy recruitment case focused on a renewable energy company experiencing delivery-performance issues despite achieving its overall OTD target.
+The project resulted in selection for the interview round of the recruitment process.
 
 OBJECTIVE:
 
@@ -19,7 +20,76 @@ key questions:
 5. how to manage these operational fauilures?
 
 METHODOLOGY:
-I used kaggle notebook to perform my analysis.
+I used kaggle notebook to perform my analysis and calculations.
+
+1. Delivery Partner Analysis
+Calculated OTD rates
+Compared performance against target OTD
+Estimated revenue at risk
+
+2. Product Analysis
+Evaluated delivery performance by product category
+Assessed revenue contribution
+Identified operational risks
+
+3. Factory Analysis
+Compared factory-level delivery performance
+Identified potential capacity and efficiency concerns
+
+4. Customer Segment Analysis
+Measured OTD performance across customer groups
+Assessed revenue exposure from delivery failures
+
+KEY FINDING:
+
+BlueDart achieved approximately 89.89% OTD.
+Delhivery achieved approximately 52% OTD and represented the largest performance gap.
+Product
+
+Titan Inverter generated most revenue but showed delivery-performance concerns.
+Eco Battery achieved stronger delivery reliability.
+
+Bengaluru demonstrated the strongest performance.
+Pune showed lower OTD despite handling a large delivery volume.
+
+Transportation customers had the lowest delivery performance.
+Retail customers maintained strong OTD performance.
+
+RECOMMENDATIONS:
+
+-Smart Routing Strategy
+High-priority customers → BlueDart
+Medium-priority customers → Shared allocation
+Low-priority deliveries → Delhivery
+
+-Factory Specialization
+Pune → Titan Inverter production
+Bengaluru → Eco Battery production
+
+-Customer Tiering
+Strategic customers receive dedicated logistics capacity.
+Smaller customers operate under flexible delivery windows.
+
+-Demand Smoothing\
+ Encourage predictable ordering patterns to reduce operational spikes.
+
+SKILLS DEMONSTRATED:
+Data Analysis
+Business Analytics
+Root Cause Analysis
+Strategic Thinking
+Data Storytelling
+Presentation Design
+
+TOOLS USED:
+Python
+Pandas
+NumPy
+Matplotlib
+PowerPoint
+
+
+
 
 1.DELIVERY PARTNER ANALYSIS:
 -calculated OTD rates
